@@ -1,4 +1,5 @@
 # tugas-labkom-2019-xi-4-carl-sagan
+#<!DOCTYPE html>
 tugas-labkom-2019-xi-4-carl-sagan created by GitHub Classroom
 1.Ainida Fauziah Attaufik
 2.Alwan Daffa Athaullah
