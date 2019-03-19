@@ -1,6 +1,10 @@
 # tugas-labkom-2019-xi-4-carl-sagan
-#<!DOCTYPE html>
 tugas-labkom-2019-xi-4-carl-sagan created by GitHub Classroom
+ <ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul> 
 1.Ainida Fauziah Attaufik
 2.Alwan Daffa Athaullah
 3.Erika Putri Amazia
