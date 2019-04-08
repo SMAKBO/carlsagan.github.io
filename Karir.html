@@ -86,9 +86,89 @@ body {font-family: "Lato", sans-serif}
   <h5> 
     <div class="w3-container w3-black w3-center">
     <h1 class="w3-margin w3-xlarge">Menjadi Seorang Dosen</h1>
-</div
+</div>
   <p> "Dia juga mengajar di Harvard University sepanjang periode ini. Pada tahun 1968, Sagan pindah ke Cornell University dan menjadi profesor penuh pada tahun 1971."</p> </h5>
 
   </th>
   </div>
- 
+  
+  <th>
+  <div class="w3-container w3-light-grey">
+  <h5>
+  <div class="w3-container w3-black w3-center">
+    <h1 class="w3-margin w3-xlarge">Pada Tahun 1970-an</h1>
+</div>
+  <p> "Carl Mulai Muncul Di Televisi"
+  <p> Pada November 1973, dia diundang bicara di Tonight Show yang dibawakan Johnny Carson. Selama 13 tahun, Sagan tampil di acara itu sebanyak 26 kali. Kemudian, selama misi pesawat Viking (pertama kali diluncurkan pada 1975) ke Mars, Carl juga kerap didapuk sebagai pengisi acara oleh stasiun televisi di AS.</p> </h5>
+
+  </th>
+  </div>
+
+<th>
+ <th>
+  <div class="w3-container w3-light-grey">
+  <h5>
+  <div class="w3-container w3-black w3-center">
+    <h1 class="w3-margin w3-xlarge">Pada Tahun 1972 Sampai 1981</h1>
+</div
+  <p>"Carl Sagan adalah Associate Director for the Center for Radio Physics and Space Research at Cornell. Dari tahun 1950-an, Sagan bekerja sebagai penasihat NASA."</p> </h5>
+
+  </th>
+  </div>
+
+  </table>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-white w3-xlarge">
+<div class="w3-container w3-black w3-center">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i></div>
+  <p class="w3-medium">Powered by <p><div class="w3-container w3-black w3-center"><h6>Erika Putri Amazia</div></h6>
+  </p>
+  
+</footer>
+<a href="file:///home/siswa/Desktop/Data/bio.html#band" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p><div class="w3-container w3-black w3-center">KARIR</div></p>
+  </a>
+<script>
+
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+
+</body>
+</html>
